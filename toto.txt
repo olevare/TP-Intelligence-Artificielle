@@ -1,0 +1,90 @@
+7
+Western Australia;Red;Green;Blue
+Northern Territory;Red;Green;Blue
+South Australia;Red;Green;Blue
+Queensland;Red;Green;Blue
+New South Wales;Red;Green;Blue
+Victoria;Red;Green;Blue
+Tasmania;Red;Green;Blue
+9
+ext
+Western Australia;Northern Territory
+6
+Red;Green
+Red;Blue
+Green;Red
+Green;Blue
+Blue;Red
+Blue;Green
+ext
+Western Australia;South Australia
+6
+Red;Green
+Red;Blue
+Green;Red
+Green;Blue
+Blue;Red
+Blue;Green
+ext
+Northern Territory;South Australia
+6
+Red;Green
+Red;Blue
+Green;Red
+Green;Blue
+Blue;Red
+Blue;Green
+ext
+Northern Territory;Queensland
+6
+Red;Green
+Red;Blue
+Green;Red
+Green;Blue
+Blue;Red
+Blue;Green
+ext
+Queensland;South Australia
+6
+Red;Green
+Red;Blue
+Green;Red
+Green;Blue
+Blue;Red
+Blue;Green
+ext
+Queensland;New South Wales
+6
+Red;Green
+Red;Blue
+Green;Red
+Green;Blue
+Blue;Red
+Blue;Green
+ext
+South Australia;New South Wales
+6
+Red;Green
+Red;Blue
+Green;Red
+Green;Blue
+Blue;Red
+Blue;Green
+ext
+South Australia;Victoria
+6
+Red;Green
+Red;Blue
+Green;Red
+Green;Blue
+Blue;Red
+Blue;Green
+ext
+New South Wales;Victoria
+6
+Red;Green
+Red;Blue
+Green;Red
+Green;Blue
+Blue;Red
+Blue;Green

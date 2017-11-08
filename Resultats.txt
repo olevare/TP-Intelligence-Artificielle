@@ -1,0 +1,175 @@
+Problème des 4 reines
+Solution trouvée:
+{rl1=c2, rl3=c1, rl2=c4, rl4=c3}
+9 noeuds ont été explorés
+{rl1=c2, rl3=c1, rl2=c4, rl4=c3}
+{rl1=c3, rl3=c4, rl2=c1, rl4=c2}
+19 noeuds ont été explorés
+
+
+Problème de colorations
+Solution trouvée:
+{Q2=R, NSW2=G, SA2=B, NT=R, WA2=R, WA=B, NT2=G, SA=G, Q=B, NSW=R, T=R, V=B, V2=R, T2=R}
+15 noeuds ont été explorés
+{Q2=R, NSW2=G, SA2=B, NT=R, WA2=R, WA=B, NT2=G, SA=G, Q=B, NSW=R, T=R, V=B, V2=R, T2=R}
+{Q2=R, NSW2=G, SA2=B, NT=R, WA2=R, WA=B, NT2=G, SA=G, Q=B, NSW=R, T=G, V=B, V2=R, T2=G}
+{Q2=R, NSW2=G, SA2=B, NT=R, WA2=R, WA=B, NT2=G, SA=G, Q=B, NSW=R, T=B, V=B, V2=R, T2=B}
+{Q2=R, NSW2=G, SA2=B, NT=G, WA2=R, WA=B, NT2=G, SA=R, Q=B, NSW=G, T=R, V=B, V2=R, T2=R}
+{Q2=R, NSW2=G, SA2=B, NT=G, WA2=R, WA=B, NT2=G, SA=R, Q=B, NSW=G, T=G, V=B, V2=R, T2=G}
+{Q2=R, NSW2=G, SA2=B, NT=G, WA2=R, WA=B, NT2=G, SA=R, Q=B, NSW=G, T=B, V=B, V2=R, T2=B}
+{Q2=R, NSW2=B, SA2=G, NT=R, WA2=R, WA=G, NT2=B, SA=B, Q=G, NSW=R, T=R, V=G, V2=R, T2=R}
+{Q2=R, NSW2=B, SA2=G, NT=R, WA2=R, WA=G, NT2=B, SA=B, Q=G, NSW=R, T=G, V=G, V2=R, T2=G}
+{Q2=R, NSW2=B, SA2=G, NT=R, WA2=R, WA=G, NT2=B, SA=B, Q=G, NSW=R, T=B, V=G, V2=R, T2=B}
+{Q2=R, NSW2=B, SA2=G, NT=B, WA2=R, WA=G, NT2=B, SA=R, Q=G, NSW=B, T=R, V=G, V2=R, T2=R}
+{Q2=R, NSW2=B, SA2=G, NT=B, WA2=R, WA=G, NT2=B, SA=R, Q=G, NSW=B, T=G, V=G, V2=R, T2=G}
+{Q2=R, NSW2=B, SA2=G, NT=B, WA2=R, WA=G, NT2=B, SA=R, Q=G, NSW=B, T=B, V=G, V2=R, T2=B}
+{Q2=G, NSW2=R, SA2=B, NT=R, WA2=G, WA=B, NT2=R, SA=G, Q=B, NSW=R, T=R, V=B, V2=G, T2=R}
+{Q2=G, NSW2=R, SA2=B, NT=R, WA2=G, WA=B, NT2=R, SA=G, Q=B, NSW=R, T=G, V=B, V2=G, T2=G}
+{Q2=G, NSW2=R, SA2=B, NT=R, WA2=G, WA=B, NT2=R, SA=G, Q=B, NSW=R, T=B, V=B, V2=G, T2=B}
+{Q2=G, NSW2=R, SA2=B, NT=G, WA2=G, WA=B, NT2=R, SA=R, Q=B, NSW=G, T=R, V=B, V2=G, T2=R}
+{Q2=G, NSW2=R, SA2=B, NT=G, WA2=G, WA=B, NT2=R, SA=R, Q=B, NSW=G, T=G, V=B, V2=G, T2=G}
+{Q2=G, NSW2=R, SA2=B, NT=G, WA2=G, WA=B, NT2=R, SA=R, Q=B, NSW=G, T=B, V=B, V2=G, T2=B}
+{Q2=G, NSW2=B, SA2=R, NT=G, WA2=G, WA=R, NT2=B, SA=B, Q=R, NSW=G, T=R, V=R, V2=G, T2=R}
+{Q2=G, NSW2=B, SA2=R, NT=G, WA2=G, WA=R, NT2=B, SA=B, Q=R, NSW=G, T=G, V=R, V2=G, T2=G}
+{Q2=G, NSW2=B, SA2=R, NT=G, WA2=G, WA=R, NT2=B, SA=B, Q=R, NSW=G, T=B, V=R, V2=G, T2=B}
+{Q2=G, NSW2=B, SA2=R, NT=B, WA2=G, WA=R, NT2=B, SA=G, Q=R, NSW=B, T=R, V=R, V2=G, T2=R}
+{Q2=G, NSW2=B, SA2=R, NT=B, WA2=G, WA=R, NT2=B, SA=G, Q=R, NSW=B, T=G, V=R, V2=G, T2=G}
+{Q2=G, NSW2=B, SA2=R, NT=B, WA2=G, WA=R, NT2=B, SA=G, Q=R, NSW=B, T=B, V=R, V2=G, T2=B}
+{Q2=B, NSW2=R, SA2=G, NT=R, WA2=B, WA=G, NT2=R, SA=B, Q=G, NSW=R, T=R, V=G, V2=B, T2=R}
+{Q2=B, NSW2=R, SA2=G, NT=R, WA2=B, WA=G, NT2=R, SA=B, Q=G, NSW=R, T=G, V=G, V2=B, T2=G}
+{Q2=B, NSW2=R, SA2=G, NT=R, WA2=B, WA=G, NT2=R, SA=B, Q=G, NSW=R, T=B, V=G, V2=B, T2=B}
+{Q2=B, NSW2=R, SA2=G, NT=B, WA2=B, WA=G, NT2=R, SA=R, Q=G, NSW=B, T=R, V=G, V2=B, T2=R}
+{Q2=B, NSW2=R, SA2=G, NT=B, WA2=B, WA=G, NT2=R, SA=R, Q=G, NSW=B, T=G, V=G, V2=B, T2=G}
+{Q2=B, NSW2=R, SA2=G, NT=B, WA2=B, WA=G, NT2=R, SA=R, Q=G, NSW=B, T=B, V=G, V2=B, T2=B}
+{Q2=B, NSW2=G, SA2=R, NT=G, WA2=B, WA=R, NT2=G, SA=B, Q=R, NSW=G, T=R, V=R, V2=B, T2=R}
+{Q2=B, NSW2=G, SA2=R, NT=G, WA2=B, WA=R, NT2=G, SA=B, Q=R, NSW=G, T=G, V=R, V2=B, T2=G}
+{Q2=B, NSW2=G, SA2=R, NT=G, WA2=B, WA=R, NT2=G, SA=B, Q=R, NSW=G, T=B, V=R, V2=B, T2=B}
+{Q2=B, NSW2=G, SA2=R, NT=B, WA2=B, WA=R, NT2=G, SA=G, Q=R, NSW=B, T=R, V=R, V2=B, T2=R}
+{Q2=B, NSW2=G, SA2=R, NT=B, WA2=B, WA=R, NT2=G, SA=G, Q=R, NSW=B, T=G, V=R, V2=B, T2=G}
+{Q2=B, NSW2=G, SA2=R, NT=B, WA2=B, WA=R, NT2=G, SA=G, Q=R, NSW=B, T=B, V=R, V2=B, T2=B}
+286 noeuds ont été explorés
+
+
+Problème d'homomorphisme
+Solution trouvée:
+{t=c, x=b, y=a, z=d}
+6 noeuds ont été explorés
+{t=c, x=b, y=a, z=d}
+6 noeuds ont été explorés
+
+
+Problème des 8 reines
+Solution trouvée:
+{rl1=1, rl3=4, rl2=7, rl5=8, rl4=6, rl7=5, rl6=2, rl8=3}
+83 noeuds ont été explorés
+{rl1=1, rl3=4, rl2=7, rl5=8, rl4=6, rl7=5, rl6=2, rl8=3}
+{rl1=1, rl3=5, rl2=7, rl5=2, rl4=8, rl7=6, rl6=4, rl8=3}
+{rl1=1, rl3=8, rl2=5, rl5=3, rl4=6, rl7=2, rl6=7, rl8=4}
+{rl1=1, rl3=8, rl2=6, rl5=7, rl4=3, rl7=2, rl6=4, rl8=5}
+{rl1=2, rl3=1, rl2=6, rl5=4, rl4=7, rl7=3, rl6=8, rl8=5}
+{rl1=2, rl3=3, rl2=7, rl5=8, rl4=6, rl7=1, rl6=5, rl8=4}
+{rl1=2, rl3=5, rl2=7, rl5=1, rl4=8, rl7=6, rl6=4, rl8=3}
+{rl1=2, rl3=6, rl2=4, rl5=3, rl4=8, rl7=7, rl6=1, rl8=5}
+{rl1=2, rl3=6, rl2=8, rl5=3, rl4=1, rl7=7, rl6=5, rl8=4}
+{rl1=2, rl3=7, rl2=5, rl5=1, rl4=4, rl7=6, rl6=8, rl8=3}
+{rl1=2, rl3=7, rl2=5, rl5=3, rl4=1, rl7=6, rl6=8, rl8=4}
+{rl1=2, rl3=8, rl2=6, rl5=1, rl4=3, rl7=7, rl6=4, rl8=5}
+{rl1=3, rl3=2, rl2=5, rl5=1, rl4=8, rl7=4, rl6=7, rl8=6}
+{rl1=3, rl3=2, rl2=5, rl5=6, rl4=8, rl7=7, rl6=4, rl8=1}
+{rl1=3, rl3=2, rl2=6, rl5=1, rl4=7, rl7=8, rl6=4, rl8=5}
+{rl1=3, rl3=2, rl2=6, rl5=5, rl4=7, rl7=8, rl6=1, rl8=4}
+{rl1=3, rl3=2, rl2=6, rl5=8, rl4=5, rl7=7, rl6=1, rl8=4}
+{rl1=3, rl3=2, rl2=7, rl5=5, rl4=8, rl7=4, rl6=1, rl8=6}
+{rl1=3, rl3=2, rl2=7, rl5=6, rl4=8, rl7=1, rl6=4, rl8=5}
+{rl1=3, rl3=4, rl2=6, rl5=8, rl4=1, rl7=7, rl6=5, rl8=2}
+{rl1=3, rl3=4, rl2=6, rl5=8, rl4=2, rl7=7, rl6=5, rl8=1}
+{rl1=3, rl3=4, rl2=8, rl5=1, rl4=7, rl7=2, rl6=6, rl8=5}
+{rl1=3, rl3=7, rl2=1, rl5=8, rl4=5, rl7=4, rl6=2, rl8=6}
+{rl1=3, rl3=7, rl2=5, rl5=4, rl4=1, rl7=8, rl6=2, rl8=6}
+{rl1=3, rl3=8, rl2=5, rl5=1, rl4=4, rl7=2, rl6=7, rl8=6}
+{rl1=3, rl3=8, rl2=6, rl5=4, rl4=1, rl7=5, rl6=7, rl8=2}
+{rl1=3, rl3=8, rl2=6, rl5=4, rl4=2, rl7=7, rl6=1, rl8=5}
+{rl1=3, rl3=8, rl2=6, rl5=5, rl4=1, rl7=2, rl6=7, rl8=4}
+{rl1=4, rl3=1, rl2=6, rl5=2, rl4=5, rl7=3, rl6=8, rl8=7}
+{rl1=4, rl3=1, rl2=7, rl5=5, rl4=8, rl7=6, rl6=2, rl8=3}
+{rl1=4, rl3=1, rl2=8, rl5=6, rl4=3, rl7=7, rl6=2, rl8=5}
+{rl1=4, rl3=1, rl2=8, rl5=7, rl4=5, rl7=6, rl6=2, rl8=3}
+{rl1=4, rl3=3, rl2=7, rl5=2, rl4=8, rl7=1, rl6=5, rl8=6}
+{rl1=4, rl3=5, rl2=1, rl5=2, rl4=8, rl7=3, rl6=7, rl8=6}
+{rl1=4, rl3=5, rl2=1, rl5=6, rl4=8, rl7=7, rl6=3, rl8=2}
+{rl1=4, rl3=5, rl2=2, rl5=6, rl4=8, rl7=3, rl6=1, rl8=7}
+{rl1=4, rl3=5, rl2=7, rl5=1, rl4=3, rl7=8, rl6=6, rl8=2}
+{rl1=4, rl3=5, rl2=7, rl5=6, rl4=2, rl7=3, rl6=1, rl8=8}
+{rl1=4, rl3=5, rl2=8, rl5=1, rl4=3, rl7=2, rl6=7, rl8=6}
+{rl1=4, rl3=7, rl2=2, rl5=1, rl4=5, rl7=6, rl6=8, rl8=3}
+{rl1=4, rl3=7, rl2=2, rl5=6, rl4=3, rl7=1, rl6=8, rl8=5}
+{rl1=4, rl3=7, rl2=2, rl5=6, rl4=3, rl7=5, rl6=8, rl8=1}
+{rl1=4, rl3=8, rl2=2, rl5=1, rl4=6, rl7=5, rl6=3, rl8=7}
+{rl1=4, rl3=8, rl2=2, rl5=7, rl4=5, rl7=3, rl6=1, rl8=6}
+{rl1=4, rl3=8, rl2=6, rl5=1, rl4=3, rl7=5, rl6=7, rl8=2}
+{rl1=4, rl3=8, rl2=6, rl5=7, rl4=2, rl7=3, rl6=1, rl8=5}
+{rl1=5, rl3=1, rl2=3, rl5=2, rl4=7, rl7=6, rl6=8, rl8=4}
+{rl1=5, rl3=1, rl2=3, rl5=8, rl4=6, rl7=4, rl6=2, rl8=7}
+{rl1=5, rl3=1, rl2=7, rl5=2, rl4=4, rl7=6, rl6=8, rl8=3}
+{rl1=5, rl3=1, rl2=7, rl5=8, rl4=3, rl7=4, rl6=6, rl8=2}
+{rl1=5, rl3=2, rl2=7, rl5=3, rl4=6, rl7=4, rl6=1, rl8=8}
+{rl1=5, rl3=2, rl2=7, rl5=3, rl4=6, rl7=8, rl6=1, rl8=4}
+{rl1=5, rl3=2, rl2=7, rl5=8, rl4=4, rl7=3, rl6=1, rl8=6}
+{rl1=5, rl3=4, rl2=1, rl5=8, rl4=6, rl7=7, rl6=2, rl8=3}
+{rl1=5, rl3=4, rl2=2, rl5=3, rl4=7, rl7=6, rl6=8, rl8=1}
+{rl1=5, rl3=4, rl2=2, rl5=8, rl4=6, rl7=1, rl6=3, rl8=7}
+{rl1=5, rl3=4, rl2=7, rl5=3, rl4=1, rl7=6, rl6=8, rl8=2}
+{rl1=5, rl3=4, rl2=8, rl5=3, rl4=1, rl7=2, rl6=6, rl8=7}
+{rl1=5, rl3=4, rl2=8, rl5=7, rl4=1, rl7=6, rl6=2, rl8=3}
+{rl1=5, rl3=6, rl2=2, rl5=7, rl4=1, rl7=8, rl6=4, rl8=3}
+{rl1=5, rl3=8, rl2=1, rl5=2, rl4=4, rl7=3, rl6=7, rl8=6}
+{rl1=5, rl3=8, rl2=1, rl5=3, rl4=6, rl7=2, rl6=7, rl8=4}
+{rl1=5, rl3=8, rl2=2, rl5=4, rl4=1, rl7=3, rl6=7, rl8=6}
+{rl1=5, rl3=8, rl2=3, rl5=7, rl4=4, rl7=6, rl6=1, rl8=2}
+{rl1=6, rl3=1, rl2=3, rl5=4, rl4=8, rl7=7, rl6=2, rl8=5}
+{rl1=6, rl3=1, rl2=3, rl5=5, rl4=7, rl7=2, rl6=8, rl8=4}
+{rl1=6, rl3=1, rl2=3, rl5=5, rl4=8, rl7=4, rl6=2, rl8=7}
+{rl1=6, rl3=1, rl2=4, rl5=8, rl4=5, rl7=7, rl6=2, rl8=3}
+{rl1=6, rl3=2, rl2=4, rl5=5, rl4=8, rl7=1, rl6=7, rl8=3}
+{rl1=6, rl3=2, rl2=8, rl5=1, rl4=4, rl7=5, rl6=7, rl8=3}
+{rl1=6, rl3=5, rl2=1, rl5=8, rl4=2, rl7=7, rl6=3, rl8=4}
+{rl1=6, rl3=5, rl2=3, rl5=1, rl4=7, rl7=2, rl6=4, rl8=8}
+{rl1=6, rl3=5, rl2=3, rl5=1, rl4=8, rl7=2, rl6=4, rl8=7}
+{rl1=6, rl3=7, rl2=2, rl5=3, rl4=1, rl7=8, rl6=5, rl8=4}
+{rl1=6, rl3=7, rl2=2, rl5=4, rl4=1, rl7=5, rl6=8, rl8=3}
+{rl1=6, rl3=7, rl2=3, rl5=1, rl4=4, rl7=2, rl6=8, rl8=5}
+{rl1=6, rl3=7, rl2=3, rl5=4, rl4=2, rl7=1, rl6=8, rl8=5}
+{rl1=6, rl3=7, rl2=3, rl5=8, rl4=2, rl7=1, rl6=5, rl8=4}
+{rl1=6, rl3=7, rl2=4, rl5=3, rl4=1, rl7=2, rl6=5, rl8=8}
+{rl1=6, rl3=7, rl2=4, rl5=8, rl4=1, rl7=5, rl6=2, rl8=3}
+{rl1=7, rl3=1, rl2=3, rl5=8, rl4=6, rl7=2, rl6=5, rl8=4}
+{rl1=7, rl3=2, rl2=4, rl5=6, rl4=8, rl7=3, rl6=1, rl8=5}
+{rl1=7, rl3=2, rl2=4, rl5=8, rl4=5, rl7=3, rl6=1, rl8=6}
+{rl1=7, rl3=3, rl2=1, rl5=6, rl4=8, rl7=2, rl6=4, rl8=5}
+{rl1=7, rl3=3, rl2=5, rl5=6, rl4=1, rl7=2, rl6=8, rl8=4}
+{rl1=7, rl3=4, rl2=2, rl5=8, rl4=1, rl7=3, rl6=5, rl8=6}
+{rl1=7, rl3=6, rl2=2, rl5=1, rl4=3, rl7=8, rl6=4, rl8=5}
+{rl1=7, rl3=8, rl2=3, rl5=5, rl4=2, rl7=6, rl6=1, rl8=4}
+{rl1=8, rl3=1, rl2=3, rl5=2, rl4=6, rl7=7, rl6=5, rl8=4}
+{rl1=8, rl3=1, rl2=4, rl5=6, rl4=3, rl7=7, rl6=2, rl8=5}
+{rl1=8, rl3=4, rl2=2, rl5=7, rl4=1, rl7=3, rl6=5, rl8=6}
+{rl1=8, rl3=5, rl2=2, rl5=1, rl4=3, rl7=4, rl6=7, rl8=6}
+2177 noeuds ont été explorés
+Nombre de solutions trouvées: 92
+
+
+Problème du zebre
+Solution trouvée:
+{Espagnol=4, Bleu=2, Renard=1, Zebre=5, Chien=4, The=2, Anglais=3, Ukrainien=2, Lucky Strike=4, Cheval=2, Ivoire=4, Old Gold=3, Escargot=3, Rouge=3, Cafe=5, Lait=3, Kools=1, Japonais=5, Jaune=1, Norvegien=1, Eau=1, Jus d'orange=4, Vert=5, Parliament=5, Chesterfield=2}
+1055643 noeuds ont été explorés
+
+
+-----------------------------------------------
+
+Contraintes codée: EXT, DIF, EQ
+Optimisation implémentées: 
+	-optimisation de violation qui n'attend pas que toutes les variables soit assigner pour tester une violations
+	-optimisation du choix de la variable qui prend en priorité celle qui a le plus petit domaine sinon prend la première
+Expérimentations: différentes expériences sur la possibilité d'optimiser le nombres de noeud explorés comme le fait de ne pas tester
+	de violation si la variable ne concerne aucune contrainte
+Autres aspects: implémentation du forward checking

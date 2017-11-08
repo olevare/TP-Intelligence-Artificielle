@@ -1,0 +1,11 @@
+3
+Western Australia;Red;Green;Blue
+Northern Territory;Red;Green;Blue
+South Australia;Red;Green;Blue
+3
+dif
+Western Australia;Northern Territory
+dif
+Northern Territory;South Australia
+dif
+South Australia;Western Australia
